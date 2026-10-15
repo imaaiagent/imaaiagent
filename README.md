@@ -1,54 +1,54 @@
-<div align="center">
+ <div align="center">
   <img src="fumi_profile_banner_download.gif" width="100%" alt="Dely's animated GitHub profile banner">
 </div>
 
 <br>
 
-# Hey, I'm Dely 👋
+<h1 align="center">Hey, I'm Dely 👋</h1>
 
-**Independent developer building across AI, hardware, and Web3.**
+<p align="center">
+  Independent Developer · AI · Hardware · Web3
+</p>
 
-I like turning ideas into real products — from AI companions running on tiny devices to developer tools and on-chain experiments.
+<p align="center">
+  Building real products at the intersection of AI, hardware, and Web3.
+</p>
 
-## 🚀 Currently Building
+---
 
-### [FUMI](https://github.com/imaaiagent/fumi)
+## Currently Building
 
-An open-source AI companion built on ESP32-S3 hardware.
+<h3 align="center">FUMI</h3>
 
-FUMI brings together animated expressions, voice interaction, and virtual pet mechanics in a small physical device.
-
+<p align="center">
+  An open-source AI companion built on ESP32-S3 hardware.
+  <br>
+  Animated expressions, voice interaction, and virtual pet mechanics.
+</p>
 
 <div align="center">
-  <img src="fumi-device.jpg" width="320" alt="FUMI running on ESP32-S3 hardware">
+  <img src="fumi-device.jpg" width="260" alt="FUMI, the physical AI companion">
   <p><em>A little AI companion, built to live beyond the screen.</em></p>
+  <a href="https://fumi.codes/">Website</a> ·
+  <a href="https://github.com/imaaiagent/fumi">Source Code</a>
 </div>
 
+---
 
-- 🌐 [Website](https://fumi.codes/)
-- 💻 [Source code](https://github.com/imaaiagent/fumi)
-- 🛠️ Built with ESP32-S3, C++, and open-source tools
+## What I Work With
 
-## 🧪 Exploring
+<p align="center">
+  <code>C++</code> <code>Python</code> <code>JavaScript</code>
+  <code>TypeScript</code> <code>ESP32</code> <code>Solana</code>
+  <code>Git</code> <code>GitHub Actions</code>
+</p>
 
-- **AI agents** — useful tools and new ways to interact with AI
-- **Hardware** — embedded systems and physical AI experiences
-- **Web3** — Solana, on-chain products, and developer tooling
-- **Open source** — building in public and sharing what works
+---
 
-## 🧰 Tools I Work With
+<p align="center">
+  <a href="https://github.com/imaaiagent">GitHub</a> ·
+  <a href="https://fumi.codes/">FUMI</a> ·
+  <a href="mailto:community@fumi.codes">Email</a>
+</p>
 
-**Languages & Web:** C++, Python, JavaScript, TypeScript, HTML, CSS  
-**Hardware:** ESP32, embedded development  
-**Web3:** Solana, Solidity  
-**Tools:** Git, GitHub Actions, Shell
-
-## 🌐 Find Me
-
-- GitHub: [@imaaiagent](https://github.com/imaaiagent)
-- FUMI: [fumi.codes](https://fumi.codes/)
-- Email: community@fumi.codes
-
-I believe good projects are built by making things, testing them in the real world, and sharing the process.
-
-**Make things. Ship things. Keep experimenting.**
+<p align="center"><em>Make things. Ship things. Keep experimenting.</em></p>
