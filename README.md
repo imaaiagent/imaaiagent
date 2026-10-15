@@ -15,29 +15,13 @@
 
 ---
 
-### 🚀 Projects
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3>🐣 <a href="https://github.com/imaaiagent/fumi">FUMI</a></h3>
-      Open-source AI companion built on ESP32-S3 hardware.
-      <br><br>
-      <sub>C++ · ESP32 · Voice AI</sub>
-      <br><br>
-      <a href="https://fumi.codes/">Website</a> ·
-      <a href="https://github.com/imaaiagent/fumi">Source</a>
-    </td>
-    <td width="50%">
-      <h3>⚡ <a href="https://github.com/imaaiagent/PYRA">PYRA</a></h3>
-      AI agent and on-chain payment infrastructure.
-      <br><br>
-      <sub>AI · Solana · Payments</sub>
-      <br><br>
-      <a href="https://github.com/imaaiagent/PYRA">Source</a>
-    </td>
-  </tr>
-</table>
+## Open-source Contributions
+
+<div align="center">
+  <img src="contributions.svg" width="100%" alt="Dely's open-source contributions">
+</div>
+
 
 ### 🧰 Tech Stack
 
