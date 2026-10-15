@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="fumi_profile_banner_download.gif" width="100%" alt="Dely's animated GitHub profile banner">
+</div>
+
+<br>
+
 # Hey, 👋
 
 **Building things at the intersection of AI, hardware, and Web3.**
