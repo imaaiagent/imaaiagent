@@ -1,20 +1,17 @@
+
 name: Update Contributions SVG
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '17 8 * * *'
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - 'src/**'
-      - 'package.json'
-      - 'package-lock.json'
-      - '.github/workflows/update-contributions.yml'
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-contributions
+  cancel-in-progress: false
 
 jobs:
   update-svg:
@@ -22,13 +19,15 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: Generate dark contributions SVG
+      - name: Generate contributions
         env:
           GITHUB_USERNAME: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -44,10 +43,15 @@ jobs:
           OUTPUT_PATH: './contributions.svg'
         run: node src/index.js
 
-      - name: Commit and push if changed
+      - name: Commit and push
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add contributions.svg
-          git diff --staged --quiet || git commit -m "chore: update open-source contributions [skip ci]"
-          git push
+          if git diff --cached --quiet; then
+            echo "No SVG changes"
+            exit 0
+          fi
+          git commit -m "chore: update contributions SVG [skip ci]"
+          git pull --rebase origin main
+          git push origin HEAD:main
