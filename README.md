@@ -18,6 +18,13 @@ An open-source AI companion built on ESP32-S3 hardware.
 
 FUMI brings together animated expressions, voice interaction, and virtual pet mechanics in a small physical device.
 
+
+<div align="center">
+  <img src="fumi-device.jpg" width="320" alt="FUMI running on ESP32-S3 hardware">
+  <p><em>A little AI companion, built to live beyond the screen.</em></p>
+</div>
+
+
 - 🌐 [Website](https://fumi.codes/)
 - 💻 [Source code](https://github.com/imaaiagent/fumi)
 - 🛠️ Built with ESP32-S3, C++, and open-source tools
