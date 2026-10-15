@@ -1,46 +1,47 @@
- <div align="center">
-  <img src="fumi_profile_banner_download.gif" width="100%" alt="Dely's animated GitHub profile banner">
+
+<div align="center">
+  <img src="fumi_profile_banner_download.gif" width="100%" alt="Dely's profile banner">
 </div>
 
-<br>
-
-<h1 align="center">Hey, I'm Dely 👋</h1>
+<h2 align="center">Hey, I'm Dely 👋</h2>
 
 <p align="center">
   Independent Developer · AI · Hardware · Web3
 </p>
 
 <p align="center">
-  Building real products at the intersection of AI, hardware, and Web3.
+  Building things that connect AI with the real world.
 </p>
 
 ---
 
-## Currently Building
+### 🚀 Currently Building
 
-<h3 align="center">FUMI</h3>
+<table>
+  <tr>
+    <td width="120" align="center">
+      <img src="fumi-device.jpg" width="100" alt="FUMI device">
+    </td>
+    <td>
+      <h3><a href="https://github.com/imaaiagent/fumi">FUMI</a></h3>
+      Open-source AI companion running on ESP32-S3 hardware.
+      <br><br>
+      <a href="https://fumi.codes/">Website</a> ·
+      <a href="https://github.com/imaaiagent/fumi">Source Code</a>
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  An open-source AI companion built on ESP32-S3 hardware.
-  <br>
-  Animated expressions, voice interaction, and virtual pet mechanics.
-</p>
+### 🧰 Tech Stack
 
-<div align="center">
-  <img src="fumi-device.jpg" width="260" alt="FUMI, the physical AI companion">
-  <p><em>A little AI companion, built to live beyond the screen.</em></p>
-  <a href="https://fumi.codes/">Website</a> ·
-  <a href="https://github.com/imaaiagent/fumi">Source Code</a>
-</div>
-
----
-
-## What I Work With
-
-<p align="center">
-  <code>C++</code> <code>Python</code> <code>JavaScript</code>
-  <code>TypeScript</code> <code>ESP32</code> <code>Solana</code>
-  <code>Git</code> <code>GitHub Actions</code>
+<p>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32">
+  <img src="https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white" alt="Solana">
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
 </p>
 
 ---
@@ -51,4 +52,4 @@
   <a href="mailto:community@fumi.codes">Email</a>
 </p>
 
-<p align="center"><em>Make things. Ship things. Keep experimenting.</em></p>
+<p align="center"><sub>Make things. Ship things. Keep experimenting.</sub></p>
