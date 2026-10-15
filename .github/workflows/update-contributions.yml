@@ -1,0 +1,53 @@
+name: Update Contributions SVG
+
+on:
+  schedule:
+    - cron: '17 8 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/update-contributions.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-svg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate dark contributions SVG
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          THEME: dark
+          AUTO_THEME: 'false'
+          MAX_REPOS: '6'
+          TITLE: 'Open-source contributions'
+          SORT_BY: date
+          LOCALE: en-US
+          WIDTH: '850'
+          HIDE_TITLE: 'false'
+          HIDE_BORDER: 'false'
+          OUTPUT_PATH: './contributions.svg'
+        run: node src/index.js
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add contributions.svg
+          git diff --staged --quiet || git commit -m "chore: update open-source contributions [skip ci]"
+          git push
