@@ -37,10 +37,12 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      Catchaos</h3>
+      <a href="https://github.com/imaaiagent/catchaos">Catchaos</a></h3>
       An interactive web experiment exploring creative digital experiences.
       <br><br>
       <strong>Focus:</strong> Web · Interactive Experiences
+       <br>
+       <a href="https://github.com/imaaiagent/catchaos">Source Code</a>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/imaaiagent/PYRA">PYRA</a></h3>
