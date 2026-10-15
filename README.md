@@ -19,7 +19,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🐣 <a href="https://github.com/imaaiagent/fumi">FUMI</a></h3>
+      <a href="https://github.com/imaaiagent/fumi">FUMI</a></h3>
       An open-source AI companion built on ESP32-S3 hardware, featuring animated expressions, voice interaction, and virtual pet mechanics.
       <br><br>
       <strong>Stack:</strong> C++ · ESP32-S3 · AI
@@ -27,7 +27,7 @@
       <a href="https://fumi.codes/">Website</a> · <a href="https://github.com/imaaiagent/fumi">Source Code</a>
     </td>
     <td width="50%" valign="top">
-      <h3>🦾 <a href="https://github.com/imaaiagent/clawit">Clawit</a></h3>
+      <a href="https://github.com/imaaiagent/clawit">Clawit</a></h3>
       An AI agent project exploring new ways to build and interact with AI-powered tools.
       <br><br>
       <strong>Focus:</strong> AI Agents · Developer Tools
@@ -37,13 +37,13 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🎭 Catchaos</h3>
+      Catchaos</h3>
       An interactive web experiment exploring creative digital experiences.
       <br><br>
       <strong>Focus:</strong> Web · Interactive Experiences
     </td>
     <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/imaaiagent/PYRA">PYRA</a></h3>
+      <a href="https://github.com/imaaiagent/PYRA">PYRA</a></h3>
       An AI agent project exploring on-chain payments and autonomous transactions.
       <br><br>
       <strong>Focus:</strong> Solana · AI Agents · Payments
@@ -101,8 +101,6 @@
 - **Email:** community@fumi.codes
 
 ---
-
-## 🤝 Open-source Contributions
 
 <div align="center">
   <img src="contributions.svg" width="100%" alt="Dely's open-source contributions">
