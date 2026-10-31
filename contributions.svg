@@ -1,30 +1,30 @@
-<svg width="850" height="150" viewBox="0 0 850 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Open-source contributions: no contributions yet" class="oss-card-cvnkxrfsq" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<svg width="850" height="150" viewBox="0 0 850 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Open-source contributions: no contributions yet" class="oss-card-cq6rjpf8y" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
   <title>Open-source contributions</title>
   <desc>No open-source contributions found for imaaiagent</desc>
   <style>
-    .oss-card-cvnkxrfsq .bg-start { stop-color: #1a1b26; }
-    .oss-card-cvnkxrfsq .bg-end { stop-color: #24283b; }
-    .oss-card-cvnkxrfsq .card-bg { fill: #2d3348; }
-    .oss-card-cvnkxrfsq .card-border { stroke: #414868; }
-    .oss-card-cvnkxrfsq .icon-bg { fill: #414868; }
-    .oss-card-cvnkxrfsq .title-text { fill: #c0caf5; }
-    .oss-card-cvnkxrfsq .subtitle-text { fill: #9ece6a; }
-    .oss-card-cvnkxrfsq .subtitle-icon { fill: #9ece6a; }
-    .oss-card-cvnkxrfsq .card-title { fill: #c0caf5; }
-    .oss-card-cvnkxrfsq .pr-number { fill: #7aa2f7; }
-    .oss-card-cvnkxrfsq .card-text { fill: #565f89; }
-    .oss-card-cvnkxrfsq .badge-bg { fill: #9ece6a; }
-    .oss-card-cvnkxrfsq .badge-text { fill: #1a1b26; }
-    .oss-card-cvnkxrfsq .date-icon { fill: #9ece6a; }
-    .oss-card-cvnkxrfsq .date-text { fill: #565f89; }
+    .oss-card-cq6rjpf8y .bg-start { stop-color: #1a1b26; }
+    .oss-card-cq6rjpf8y .bg-end { stop-color: #24283b; }
+    .oss-card-cq6rjpf8y .card-bg { fill: #2d3348; }
+    .oss-card-cq6rjpf8y .card-border { stroke: #414868; }
+    .oss-card-cq6rjpf8y .icon-bg { fill: #414868; }
+    .oss-card-cq6rjpf8y .title-text { fill: #c0caf5; }
+    .oss-card-cq6rjpf8y .subtitle-text { fill: #9ece6a; }
+    .oss-card-cq6rjpf8y .subtitle-icon { fill: #9ece6a; }
+    .oss-card-cq6rjpf8y .card-title { fill: #c0caf5; }
+    .oss-card-cq6rjpf8y .pr-number { fill: #7aa2f7; }
+    .oss-card-cq6rjpf8y .card-text { fill: #565f89; }
+    .oss-card-cq6rjpf8y .badge-bg { fill: #9ece6a; }
+    .oss-card-cq6rjpf8y .badge-text { fill: #1a1b26; }
+    .oss-card-cq6rjpf8y .date-icon { fill: #9ece6a; }
+    .oss-card-cq6rjpf8y .date-text { fill: #565f89; }
   </style>
   <defs>
-    <linearGradient id="bgGrad-cvnkxrfsq" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="bgGrad-cq6rjpf8y" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" class="bg-start"/>
       <stop offset="100%" class="bg-end"/>
     </linearGradient>
   </defs>
-  <rect width="850" height="150" fill="url(#bgGrad-cvnkxrfsq)" rx="16"/>
+  <rect width="850" height="150" fill="url(#bgGrad-cq6rjpf8y)" rx="16"/>
   <text class="title-text" x="30" y="45" font-size="22" font-weight="700">
     Open-source contributions
   </text>
